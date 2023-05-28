@@ -1,0 +1,399 @@
+The system is: Linux - 3.10.0-1160.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /apps/Nemo/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/programs/mjson/build/CMakeFiles/3.24.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /apps/Nemo/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/programs/mjson/build/CMakeFiles/3.24.2/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /programs/mjson/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_63d9e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_63d9e.dir/build.make CMakeFiles/cmTC_63d9e.dir/build
+gmake[1]: Entering directory `/programs/mjson/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_63d9e.dir/CMakeCCompilerABI.c.o
+/apps/Nemo/bin/gcc   -v -o CMakeFiles/cmTC_63d9e.dir/CMakeCCompilerABI.c.o -c /apps/Nemo/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/apps/Nemo/bin/gcc
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-checking=release --enable-languages=c,c++ --disable-multilib --prefix=/apps/Nemo
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_63d9e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_63d9e.dir/'
+ /apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/cc1 -quiet -v /apps/Nemo/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_63d9e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccGjaewF.s
+GNU C17 (GCC) version 12.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 12.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include
+ /usr/local/include
+ /apps/Nemo/include
+ /apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 12.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 12.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: ac461df88c8d20a79fcfb8f32cf016d4
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_63d9e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_63d9e.dir/'
+ as -v --64 -o CMakeFiles/cmTC_63d9e.dir/CMakeCCompilerABI.c.o /tmp/ccGjaewF.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7
+COMPILER_PATH=/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_63d9e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_63d9e.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_63d9e
+/apps/Nemo/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63d9e.dir/link.txt --verbose=1
+/apps/Nemo/bin/gcc  -v -rdynamic CMakeFiles/cmTC_63d9e.dir/CMakeCCompilerABI.c.o -o cmTC_63d9e 
+Using built-in specs.
+COLLECT_GCC=/apps/Nemo/bin/gcc
+COLLECT_LTO_WRAPPER=/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-checking=release --enable-languages=c,c++ --disable-multilib --prefix=/apps/Nemo
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.1.0 (GCC) 
+COMPILER_PATH=/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_63d9e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_63d9e.'
+ /apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/collect2 -plugin /apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccO58J1D.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_63d9e /lib/../lib64/crt1.o /lib/../lib64/crti.o /apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbegin.o -L/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0 -L/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../.. CMakeFiles/cmTC_63d9e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_63d9e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_63d9e.'
+gmake[1]: Leaving directory `/programs/mjson/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include]
+    add: [/usr/local/include]
+    add: [/apps/Nemo/include]
+    add: [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include] ==> [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/apps/Nemo/include] ==> [/apps/Nemo/include]
+  collapse include dir [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed] ==> [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include;/usr/local/include;/apps/Nemo/include;/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /programs/mjson/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_63d9e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_63d9e.dir/build.make CMakeFiles/cmTC_63d9e.dir/build]
+  ignore line: [gmake[1]: Entering directory `/programs/mjson/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_63d9e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/apps/Nemo/bin/gcc   -v -o CMakeFiles/cmTC_63d9e.dir/CMakeCCompilerABI.c.o -c /apps/Nemo/share/cmake-3.24/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/apps/Nemo/bin/gcc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-checking=release --enable-languages=c c++ --disable-multilib --prefix=/apps/Nemo]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.1.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_63d9e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_63d9e.dir/']
+  ignore line: [ /apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/cc1 -quiet -v /apps/Nemo/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_63d9e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccGjaewF.s]
+  ignore line: [GNU C17 (GCC) version 12.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /apps/Nemo/include]
+  ignore line: [ /apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 12.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: ac461df88c8d20a79fcfb8f32cf016d4]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_63d9e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_63d9e.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_63d9e.dir/CMakeCCompilerABI.c.o /tmp/ccGjaewF.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7]
+  ignore line: [COMPILER_PATH=/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_63d9e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_63d9e.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_63d9e]
+  ignore line: [/apps/Nemo/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63d9e.dir/link.txt --verbose=1]
+  ignore line: [/apps/Nemo/bin/gcc  -v -rdynamic CMakeFiles/cmTC_63d9e.dir/CMakeCCompilerABI.c.o -o cmTC_63d9e ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/apps/Nemo/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-checking=release --enable-languages=c c++ --disable-multilib --prefix=/apps/Nemo]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.1.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_63d9e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_63d9e.']
+  link line: [ /apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/collect2 -plugin /apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccO58J1D.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_63d9e /lib/../lib64/crt1.o /lib/../lib64/crti.o /apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbegin.o -L/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0 -L/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../.. CMakeFiles/cmTC_63d9e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccO58J1D.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_63d9e] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+    arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+    arg [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbegin.o] ==> obj [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbegin.o]
+    arg [-L/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0] ==> dir [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0]
+    arg [-L/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64] ==> dir [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../..] ==> dir [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../..]
+    arg [CMakeFiles/cmTC_63d9e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtend.o] ==> obj [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtend.o]
+    arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+  collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+  collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+  collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+  collapse library dir [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0] ==> [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0]
+  collapse library dir [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64] ==> [/apps/Nemo/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../..] ==> [/apps/Nemo/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/lib64/crt1.o;/lib64/crti.o;/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbegin.o;/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtend.o;/lib64/crtn.o]
+  implicit dirs: [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0;/apps/Nemo/lib64;/lib64;/usr/lib64;/apps/Nemo/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /programs/mjson/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3053b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3053b.dir/build.make CMakeFiles/cmTC_3053b.dir/build
+gmake[1]: Entering directory `/programs/mjson/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3053b.dir/CMakeCXXCompilerABI.cpp.o
+/apps/Nemo/bin/c++   -v -o CMakeFiles/cmTC_3053b.dir/CMakeCXXCompilerABI.cpp.o -c /apps/Nemo/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/apps/Nemo/bin/c++
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-checking=release --enable-languages=c,c++ --disable-multilib --prefix=/apps/Nemo
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3053b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3053b.dir/'
+ /apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/cc1plus -quiet -v -D_GNU_SOURCE /apps/Nemo/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_3053b.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccujYh8I.s
+GNU C++17 (GCC) version 12.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 12.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0
+ /apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/x86_64-pc-linux-gnu
+ /apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/backward
+ /apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include
+ /usr/local/include
+ /apps/Nemo/include
+ /apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed
+ /usr/include
+End of search list.
+GNU C++17 (GCC) version 12.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 12.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 9a28cfbe69fd0e93d99c802f32a23c71
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3053b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3053b.dir/'
+ as -v --64 -o CMakeFiles/cmTC_3053b.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccujYh8I.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7
+COMPILER_PATH=/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3053b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3053b.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_3053b
+/apps/Nemo/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3053b.dir/link.txt --verbose=1
+/apps/Nemo/bin/c++  -v -rdynamic CMakeFiles/cmTC_3053b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_3053b 
+Using built-in specs.
+COLLECT_GCC=/apps/Nemo/bin/c++
+COLLECT_LTO_WRAPPER=/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-checking=release --enable-languages=c,c++ --disable-multilib --prefix=/apps/Nemo
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.1.0 (GCC) 
+COMPILER_PATH=/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3053b' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3053b.'
+ /apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/collect2 -plugin /apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFkmxjL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3053b /lib/../lib64/crt1.o /lib/../lib64/crti.o /apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbegin.o -L/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0 -L/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../.. CMakeFiles/cmTC_3053b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3053b' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3053b.'
+gmake[1]: Leaving directory `/programs/mjson/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0]
+    add: [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/x86_64-pc-linux-gnu]
+    add: [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/backward]
+    add: [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include]
+    add: [/usr/local/include]
+    add: [/apps/Nemo/include]
+    add: [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0] ==> [/apps/Nemo/include/c++/12.1.0]
+  collapse include dir [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/x86_64-pc-linux-gnu] ==> [/apps/Nemo/include/c++/12.1.0/x86_64-pc-linux-gnu]
+  collapse include dir [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/backward] ==> [/apps/Nemo/include/c++/12.1.0/backward]
+  collapse include dir [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include] ==> [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/apps/Nemo/include] ==> [/apps/Nemo/include]
+  collapse include dir [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed] ==> [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/apps/Nemo/include/c++/12.1.0;/apps/Nemo/include/c++/12.1.0/x86_64-pc-linux-gnu;/apps/Nemo/include/c++/12.1.0/backward;/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include;/usr/local/include;/apps/Nemo/include;/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /programs/mjson/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3053b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3053b.dir/build.make CMakeFiles/cmTC_3053b.dir/build]
+  ignore line: [gmake[1]: Entering directory `/programs/mjson/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_3053b.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/apps/Nemo/bin/c++   -v -o CMakeFiles/cmTC_3053b.dir/CMakeCXXCompilerABI.cpp.o -c /apps/Nemo/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/apps/Nemo/bin/c++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-checking=release --enable-languages=c c++ --disable-multilib --prefix=/apps/Nemo]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.1.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3053b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3053b.dir/']
+  ignore line: [ /apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/cc1plus -quiet -v -D_GNU_SOURCE /apps/Nemo/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_3053b.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccujYh8I.s]
+  ignore line: [GNU C++17 (GCC) version 12.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0]
+  ignore line: [ /apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/x86_64-pc-linux-gnu]
+  ignore line: [ /apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/backward]
+  ignore line: [ /apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /apps/Nemo/include]
+  ignore line: [ /apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 12.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 9a28cfbe69fd0e93d99c802f32a23c71]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3053b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3053b.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_3053b.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccujYh8I.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7]
+  ignore line: [COMPILER_PATH=/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3053b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3053b.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_3053b]
+  ignore line: [/apps/Nemo/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3053b.dir/link.txt --verbose=1]
+  ignore line: [/apps/Nemo/bin/c++  -v -rdynamic CMakeFiles/cmTC_3053b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_3053b ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/apps/Nemo/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-checking=release --enable-languages=c c++ --disable-multilib --prefix=/apps/Nemo]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.1.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3053b' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3053b.']
+  link line: [ /apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/collect2 -plugin /apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFkmxjL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3053b /lib/../lib64/crt1.o /lib/../lib64/crti.o /apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbegin.o -L/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0 -L/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../.. CMakeFiles/cmTC_3053b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/apps/Nemo/libexec/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccFkmxjL.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3053b] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+    arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+    arg [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbegin.o] ==> obj [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbegin.o]
+    arg [-L/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0] ==> dir [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0]
+    arg [-L/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64] ==> dir [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../..] ==> dir [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../..]
+    arg [CMakeFiles/cmTC_3053b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtend.o] ==> obj [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtend.o]
+    arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+  collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+  collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+  collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+  collapse library dir [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0] ==> [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0]
+  collapse library dir [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64] ==> [/apps/Nemo/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../..] ==> [/apps/Nemo/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/lib64/crt1.o;/lib64/crti.o;/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbegin.o;/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtend.o;/lib64/crtn.o]
+  implicit dirs: [/apps/Nemo/lib/gcc/x86_64-pc-linux-gnu/12.1.0;/apps/Nemo/lib64;/lib64;/usr/lib64;/apps/Nemo/lib]
+  implicit fwks: []
+
+

@@ -1,0 +1,5 @@
+/programs/mjson/build/CMakeFiles/mjson.dir
+/programs/mjson/build/CMakeFiles/test.dir
+/programs/mjson/build/CMakeFiles/other_test.dir
+/programs/mjson/build/CMakeFiles/edit_cache.dir
+/programs/mjson/build/CMakeFiles/rebuild_cache.dir

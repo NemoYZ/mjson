@@ -1,0 +1,1 @@
+/apps/Nemo/bin/c++ -rdynamic -Og -ggdb -std=c++20 -Werror -Wall -Wno-unused-variable -Wno-unused-function -Wno-unused-but-set-variable -rdynamic CMakeFiles/test.dir/tests/test.cc.o -o /programs/mjson/bin/test   -L/programs/mjson/bin  -Wl,-rpath,/programs/mjson/bin:/programs/mjson/lib /programs/mjson/lib/libmjson.so 
